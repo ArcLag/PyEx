@@ -11,7 +11,7 @@ surface_earth = 4*pi*radius_earth**2
 rice_grain = 0.000000065
 
 print("Earth's surface: " + str(int(surface_earth)) + "km2")
-print(rice_grain * surface_earth)
+print(round(rice_grain, 2)* round(surface_earth))
 
 
 
