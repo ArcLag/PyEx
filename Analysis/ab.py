@@ -8,6 +8,7 @@ print(d)  # -1
 
 # '/' generates floating point numbers/outcomes
 # whilst '//' generates integers. % stands for modulo, the remainder of an outcome
+
 s = 0
 for i in range(0, 100):
     s += 1
